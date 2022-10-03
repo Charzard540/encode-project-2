@@ -87,6 +87,7 @@ async function main() {
   const delegateTx = await ballotContract.delegate(addressTo);
   const delegateTxReceipt = await delegateTx.wait(); 
   console.log(delegateTx);
+  
 
 
   console.log("Casting Votes")
